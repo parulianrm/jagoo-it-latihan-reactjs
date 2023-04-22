@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+
+.intro {
+  height: 30%;
+  justify-content: flex;
+}
+
+.title {
+font-size: 5rem;
+font-weight: 800;
+line-height: 1;
+text-shadow: 2px 2px rgb(111, 73, 73);
+justify-content: center;
+margin: 30px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(186, 79, 79);
+}
+
+.trending {
+  height: auto;
+}
+
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+#search-container {
+  margin: 1em 0;
+  justify-content: center;
+  display: flex;
+}
+
+#search-container input {
+  background-color: transparent;
+  width: 40%;
+  border-bottom: 2px solid rgb(248, 0, 0);
+  padding: 1em 0.3 em;
+  text-align: center;
+}
+
+#search-container input:focus {
+  border-bottom-color :rgb(111, 73, 73)
+}
+#search-container button {
+  padding: 1em 2em;
+  margin-left: 1em;
+  background-color: rgb(208, 65, 4);
+  color: white;
+  border-radius: 5px;
+  margin-top: 0.5em;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+}
+.button-value {
+  border: 2px solid rgb(208, 65, 4);
+  padding: 1em 2.2em;
+  border-radius: 3em;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+}
+
+.button-value:hover {
+  background-color: rgb(208, 65, 4); 
+  color: white;
+}
+
+
+
+
+.active {
+  background-color: rgb(208, 65, 4);
+  color: #ffffff;
+}
+
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 100%;
+  max-width: 18rem;
+  margin: 0.5rem;
+  text-align: center;
+  font-size: ;
+}
+
+.card-title {
+  color: red;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card-desc {
+  font-family:'Times New Roman', Times, serif;
+}
+
+.card-img-top {
+  height: 375px;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .card-deck {
+      flex-direction: column;
+  }
+}
+
+
